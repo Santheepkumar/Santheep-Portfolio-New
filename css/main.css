@@ -295,6 +295,38 @@ section {
     float: right;
     max-width: 500px;
   }
+  .skilllist {
+    background-color: #ff64cb;
+    padding: 2rem 16rem;
+  }
+  .skilllist h1 {
+    color: #252525;
+    letter-spacing: 1rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  .skilllist .allSkils {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (auto)[3];
+        grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+  }
+  .skilllist .allSkils .star-skill {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .skilllist .allSkils .star-skill .stars {
+    margin-top: 10px;
+  }
+  .skilllist .allSkils label {
+    color: black;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    margin-right: 60px;
+    padding-bottom: 20px;
+  }
 }
 
 @media only screen and (min-width: 1250px) {
